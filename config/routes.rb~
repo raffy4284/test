@@ -7,17 +7,17 @@ Rails.application.routes.draw do
 
   get 'projects' => 'pages#projects'
 
-  get 'ee140' => 'pages#ee140'
+  get 'EE140' => 'pages#EE140'
 
-  get 'cs150' => 'pages#cs150'
+  get 'CS150' =>'pages#CS150'
 
-  get 'cs61a' => 'pages#cs61a'
+  get 'CS61A' => 'pages#CS61A'
 
-  get 'cs61c' => 'pages#cs61c'
+  get 'CS61C' => 'pages#CS61C'
 
-  get 'cs188' => 'pages#cs188'
+  get 'CS188' => 'pages#CS188'
 
-  get 'cs162' => 'pages#cs162'
+  get 'CS162' => 'pages#CS162'
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
